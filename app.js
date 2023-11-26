@@ -19,9 +19,9 @@ app.use(cors())
 
 app.use(express.static('public'))
 
-const port = 3000;
+const port = 80;
 //4. 监听端口 启动服务
-app.listen(3000, () =>{
+app.listen(80, () =>{
   console.log(`服务已经启动, 端口监听为${port}...`);
   console.log(`Server runing at http://localhost:${port}/`);
 });
